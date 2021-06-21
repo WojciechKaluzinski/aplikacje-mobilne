@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">wisielec</string>
+    <string-array name="words">
+        <item>lay</item>
+        <item>irony</item>
+        <item>match</item>
+        <item>crisis</item>
+        <item>lamp</item>
+        <item>dive</item>
+        <item>snub</item>
+        <item>tender</item>
+        <item>loop</item>
+        <item>minor</item>
+        <item>chance</item>
+        <item>profit</item>
+        <item>killer</item>
+        <item>screw</item>
+        <item>pitch</item>
+        <item>velvet</item>
+        <item>chart</item>
+        <item>whip</item>
+        <item>use</item>
+        <item>indoor</item>
+        <item>hole</item>
+    </string-array>
+</resources>

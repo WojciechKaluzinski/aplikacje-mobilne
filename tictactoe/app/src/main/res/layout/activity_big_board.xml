@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".BigBoardActivity">
+
+<TableLayout
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            android:tag=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b03"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b04"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            android:tag=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b30"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            android:tag=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b31"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b32"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b34"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b40"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            android:tag=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b41"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b42"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b43"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/b44"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p_sty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+</TableLayout>
+
+<TextView
+    android:id="@+id/textinfo"
+    android:gravity="center"
+    android:layout_width="178dp"
+    android:layout_height="41dp"
+    android:text="TextView"
+    android:textColor="#009688"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tic-tac-toe</string>
+    <string name="cross">KRZYŻYK</string>
+    <string name="circle">KÓŁKO</string>
+    <string name="nobody">NIKT</string>
+    <string name="last_win">\OSTATNIO WYGRAŁ: \</string>
+</resources>
